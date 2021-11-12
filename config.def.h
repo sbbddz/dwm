@@ -19,16 +19,16 @@ static const unsigned int systrayspacing = 2;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
-static const int topbar             = 0;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Roboto-Regular:size=10", "FontAwesome:size=10", "monospace:size=10" };
-static const char dmenufont[]       = "Roboto-Regular:size=10";
+static const int topbar             = 1;        /* 0 means bottom bar */
+static const char *fonts[]          = { "Roboto-Bold:size=10", "FontAwesome:size=10", "monospace:size=10" };
+static const char dmenufont[]       = "Roboto-Bold:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
-static const char col_white[]	    = "#d2d2d2";
-static const char col_black[]	    = "#000000";
+static const char col_white[]	    = "#e5e5e5";
+static const char col_black[]	    = "#070707";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
@@ -38,7 +38,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 // static const char *tags[] = { "1", "2", "3", "4" };
-static const char *tags[] = { "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
